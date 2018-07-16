@@ -21,7 +21,7 @@ float notifHeight;
 }
 %end
 
-// Thanks to 6ilent's PokeFullCharge! Reference for learning preference bundles.
+// Thanks to 6ilent's PokeFullCharge! Reference for my learning on preference bundles.
 // Original tweak and source code available at https://github.com/6ilent/PokeFullCharge
 
 static void reloadPrefs() {

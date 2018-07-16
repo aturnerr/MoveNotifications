@@ -2,6 +2,8 @@
 
 @implementation mnpRootListController
 
+// Change colour of view elements
+
 - (NSArray *)specifiers {
 	if (!_specifiers) {
 		_specifiers = [[self loadSpecifiersFromPlistName:@"Root" target:self] retain];
@@ -22,6 +24,9 @@
 
     return self;
 }
+
+// Thanks to Ominousness's tweak ModernXI, reference for creating better looking preference bundles.
+// Original tweak and source code available at https://github.com/Ominousness/ModernXI
 
 - (void)viewWillAppear:(BOOL)animated {
 	[super viewWillAppear:animated];
