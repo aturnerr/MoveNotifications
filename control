@@ -1,0 +1,9 @@
+Package: com.aturner.movenotifications
+Name: MoveNotifications
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Adjust the offset of LockScreen notifications!
+Maintainer: aturner_
+Author: aturner_
+Section: Tweaks

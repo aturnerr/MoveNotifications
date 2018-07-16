@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>headerCellClass</key>
+				<string>HBImageTableCell</string>
+				<key>icon</key>
+				<string>banner.png</string>
+		</dict>
+
+		<dict>
+				<key>cell</key><string>PSGroupCell</string>
+				<key>label</key><string>Adjust the y-offset of notifications</string>
+		</dict>
+
+		<dict>
+				<key>cell</key><string>PSSliderCell</string>
+				<key>min</key><real>-200</real>
+				<key>max</key><real>300</real>
+				<key>default</key><integer>0</integer>
+				<key>defaults</key><string>com.aturner.movenotifications</string>
+				<key>showValue</key><true/>
+				<key>key</key><string>notifHeight</string>
+				<key>PostNotification</key><string>com.aturner.movenotifications/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+				<key>cell</key><string>PSGroupCell</string>
+				<key>label</key><string>Respring if changes aren't visible</string>
+		</dict>
+
+		<dict>
+				<key>cell</key><string>PSButtonCell</string>
+				<key>label</key><string>Respring</string>
+				<key>action</key><string>respring</string>
+		</dict>
+
+		<dict>
+				<key>cellClass</key>
+				<string>HBLinkTableCell</string>
+				<key>label</key>
+				<string>Github</string>
+				<key>subtitle</key>
+				<string>Source code</string>
+				<key>url</key>
+				<string>https://github.com/aturnerr/MoveNotifications</string>
+		</dict>
+
+		<dict>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>label</key>
+			<string>Adam Turner</string>
+			<key>user</key>
+			<string>aturner__</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>MoveNotifications</string>
+</dict>
+</plist>
